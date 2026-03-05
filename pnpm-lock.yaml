@@ -81,11 +81,11 @@ importers:
         specifier: ^0.39.0
         version: 0.39.3(@types/pg@8.16.0)(pg@8.18.0)
       fastify:
-        specifier: ^5.0.0
-        version: 5.7.4
+        specifier: ^5.8.1
+        version: 5.8.1
       fastify-type-provider-zod:
         specifier: ^4.0.0
-        version: 4.0.2(fastify@5.7.4)(zod@3.25.76)
+        version: 4.0.2(fastify@5.8.1)(zod@3.25.76)
       jose:
         specifier: ^5.9.0
         version: 5.10.0
@@ -2578,8 +2578,8 @@ packages:
       fastify: ^5.0.0
       zod: ^3.14.2
 
-  fastify@5.7.4:
-    resolution: {integrity: sha512-e6l5NsRdaEP8rdD8VR0ErJASeyaRbzXYpmkrpr2SuvuMq6Si3lvsaVy5C+7gLanEkvjpMDzBXWE5HPeb/hgTxA==}
+  fastify@5.8.1:
+    resolution: {integrity: sha512-y0kicFvvn7CYWoPOVLOcvn4YyKQz03DIY7UxmyOy21/J8eXm09R+tmb+tVDBW5h+pja30cHI5dqUcSlvY86V2A==}
 
   fastq@1.20.1:
     resolution: {integrity: sha512-GGToxJ/w1x32s/D2EKND7kTil4n8OVk/9mycTc4VDza13lOvpUZTGX3mFSCtV9ksdGBVzvsyAVLM6mHFThxXxw==}
@@ -2673,6 +2673,7 @@ packages:
   git-raw-commits@4.0.0:
     resolution: {integrity: sha512-ICsMM1Wk8xSGMowkOmPrzo2Fgmfo4bMHLNX6ytHjajRJUqvHOw/TFapQ+QG75c3X/tTDDhOSRPGC52dDbNM8FQ==}
     engines: {node: '>=16'}
+    deprecated: This package is no longer maintained. For the JavaScript API, please use @conventional-changelog/git-client instead.
     hasBin: true
 
   glob-parent@5.1.2:
@@ -6392,14 +6393,14 @@ snapshots:
 
   fastify-plugin@5.1.0: {}
 
-  fastify-type-provider-zod@4.0.2(fastify@5.7.4)(zod@3.25.76):
+  fastify-type-provider-zod@4.0.2(fastify@5.8.1)(zod@3.25.76):
     dependencies:
       '@fastify/error': 4.2.0
-      fastify: 5.7.4
+      fastify: 5.8.1
       zod: 3.25.76
       zod-to-json-schema: 3.25.1(zod@3.25.76)
 
-  fastify@5.7.4:
+  fastify@5.8.1:
     dependencies:
       '@fastify/ajv-compiler': 4.0.5
       '@fastify/error': 4.2.0
